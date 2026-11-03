@@ -9,5 +9,4 @@ def home():
     return render_template("index.html", link=link, comic_num=comic_num, title=title, desc=desc, img=img)
     
 
-if __name__ == "__main__":
-    app.run()
+
